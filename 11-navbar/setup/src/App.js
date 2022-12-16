@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Navbar from "./Navbar";
+import { items } from "./data";
 function App() {
   return (
     <>
-      <h2>navbar project setup</h2>
+      <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
