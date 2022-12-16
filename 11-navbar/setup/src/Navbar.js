@@ -33,7 +33,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <a href={url}>{text}</a>git add .
                 </li>
               );
             })}
